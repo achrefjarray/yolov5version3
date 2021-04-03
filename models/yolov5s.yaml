@@ -1,5 +1,5 @@
 # parameters
-nc: 10  # number of classes
+nc: 1  # number of classes
 depth_multiple: 0.33  # model depth multiple
 width_multiple: 0.50  # layer channel multiple
 
@@ -20,7 +20,7 @@ backbone:
    [-1, 1, Conv, [512, 3, 2]],  # 5-P4/16
    [-1, 9, C3, [512]],
    [-1, 1, Conv, [1024, 3, 2]],  # 7-P5/32
-   [-1, 1, SPP, [1024, [2, 6, 10]]],
+   [-1, 1, SPP, [1024, [5, 9, 13]]],
    [-1, 3, C3, [1024, False]],  # 9
   ]
 
