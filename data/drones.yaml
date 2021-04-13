@@ -1,11 +1,12 @@
 
 
 # train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
-train: /kaggle/working/data/images/train/  # 16551 images
-val: /kaggle/working/data/images/test/  # 4952 images
+train: /kaggle/working/input/one-classe/one_classe_datasets/bd_drone_augmented/images/train/  # 16551 images
+val: /kaggle/working/input/one-classe/one_classe_datasets/bd_drone_augmented/images/test/  # 4952 images
 
 # number of classes
-nc: 10
+nc: 1
 
 # class names
-names: [ 'Plane', 'Anka', 'Bird', 'Camcopter', 'DJI-Matrice', 'DJI-mavic', 'DJI-Phantom', 'Helicopter', 'Hostile-UAV', 'ScanEagle' ]
+#names: [ 'Plane', 'Anka', 'Bird', 'Camcopter', 'DJI-Matrice', 'DJI-mavic', 'DJI-Phantom', 'Helicopter', 'Hostile-UAV', 'ScanEagle' ]
+names: ['Drone']
