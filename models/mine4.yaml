@@ -4,7 +4,7 @@ depth_multiple: 0.33  # model depth multiple
 width_multiple: 0.50  # layer channel multiple
 
 # anchors
-anchors:12
+anchors: 3
 
 # YOLOv5 backbone
 backbone:
